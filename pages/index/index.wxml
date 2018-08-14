@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <dialog id="dialog"
+  title="这里是可爱的标题"
+  content="哈哈哈哈，看到了吧"
+  cancelText="嘤嘤嘤~~"
+  confirmText="爱你哟~~"
+  bind:cancelEvent="_cancelEvent"
+  bind:confirmEvent="_confirmEvent"
+  >
+  </dialog>
+  <button type="primary" bindtap="showDialog">要开始艰难的选择了~~~</button>
+</view>
